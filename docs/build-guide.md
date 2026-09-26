@@ -16,9 +16,14 @@ Companion document to `rascube-flight-stack-wiring.svg`. Read the wiring drawing
 
 ### 1.2 Sensors and payload — still to buy
 
-- [ ] BME280 (get the 6-pin breakout with an SDO pin exposed, not the 4-pin version — you need SDO to set the I2C address away from the BMP280)
+- [ ] BME280 (temperature, atmospheric pressure, and humidity; get the 6-pin breakout with an SDO pin exposed, not the 4-pin version — you need SDO to set the I2C address away from the BMP280)
 - [ ] BMP280
 - [ ] MPU6050 (GY-521 breakout is fine)
+- [ ] 6 × LDR photoresistors (light sensing)
+- [ ] MMC5603 3-axis magnetometer
+- [ ] LSM6DSO accelerometer and gyroscope
+- [ ] INA226 voltage, current, and power monitor
+- [ ] GPS receiver
 - [ ] microSD card, ≤8 GB, class 10, formatted FAT32
 
 ### 1.3 Power

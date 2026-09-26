@@ -11,9 +11,14 @@ The project currently focuses on the hardware bring-up and communication layer. 
 - ESP32-S3 N16R8 — main flight computer
 - SX1278 Ra-02 433 MHz LoRa module
 - ESP32-CAM + OV2640 camera
-- BME280
+- BME280 — temperature, atmospheric pressure, and humidity
 - BMP280
 - MPU6050
+- 6 × LDR photoresistors — light sensing
+- MMC5603 — 3-axis magnetometer
+- LSM6DSO — accelerometer and gyroscope
+- INA226 — voltage, current, and power monitoring
+- GPS receiver — position and time data
 - 18650 battery + TP4056 + MT3608 power chain
 - 433 MHz SMA antenna
 
@@ -123,10 +128,15 @@ The repository will be expanded gradually:
 - [x] ESP32-S3 bring-up
 - [x] SX1278 LoRa initialization test
 - [x] LoRa transmitter test
-- [ ] LoRa receiver / ground-station test
+- [x] LoRa receiver / ground-station test
 - [ ] I2C sensor scanner
 - [ ] BME280 + BMP280 integration
 - [ ] MPU6050 integration
+- [ ] Six-channel LDR light sensing
+- [ ] MMC5603 magnetometer integration
+- [ ] LSM6DSO accelerometer and gyroscope integration
+- [ ] INA226 voltage, current, and power monitoring
+- [ ] GPS receiver integration
 - [ ] ESP32-CAM communication
 - [ ] Battery-voltage monitoring
 - [ ] Data logging
